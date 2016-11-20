@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">IfSmile</string>
     <string name="welcome_text">欢迎来到IfSmile，请尽情使用吧！</string>
+    <string name="name_hint">给自己想个名字吧</string>
 </resources>

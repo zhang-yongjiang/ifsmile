@@ -37,6 +37,8 @@ public class SmileActivity extends AppCompatActivity {
         noChoice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent toStartActivity=new Intent(SmileActivity.this,StartSmileActivity.class);
+                startActivity(toStartActivity);
                 Toast.makeText(SmileActivity.this,"你没有做出任何选择",Toast.LENGTH_SHORT).show();
             }
         });
