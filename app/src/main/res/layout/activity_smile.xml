@@ -20,12 +20,14 @@
             android:id="@+id/start_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
             android:layout_weight="1"
-            android:text="开始"/>
+            android:text="直接进入"/>
         <Button
             android:id="@+id/without_choice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
             android:layout_weight="1"
             android:text="我不需要"/>
     </LinearLayout>
