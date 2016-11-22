@@ -19,6 +19,9 @@
         <activity android:name=".StartSmileActivity">
 
         </activity>
+        <activity android:name=".VideoPlayActivity">
+
+        </activity>
 
     </application>
 
