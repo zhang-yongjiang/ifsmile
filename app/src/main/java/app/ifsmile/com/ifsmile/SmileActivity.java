@@ -12,7 +12,7 @@ public class SmileActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_smile_video);
+        setContentView(R.layout.fragment_smile_video);
         FragmentManager fm=getSupportFragmentManager();
         Fragment fragment = fm.findFragmentById(R.id.fragment_container);
 
