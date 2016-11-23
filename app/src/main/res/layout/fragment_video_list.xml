@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:orientation="vertical">
+
         <Button
             android:id="@+id/my_video_button"
             android:layout_width="match_parent"

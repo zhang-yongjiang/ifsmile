@@ -28,7 +28,7 @@ public class VideoPlayFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup group, Bundle savedInstanceState){
-        View view=inflater.inflate(R.layout.fragment_smile_video,group);
+        View view=inflater.inflate(R.layout.fragment_video_list,group);
 
 
         mButtonVideo=(Button)view.findViewById(R.id.my_video_button);
