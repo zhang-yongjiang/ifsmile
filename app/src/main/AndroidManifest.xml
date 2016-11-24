@@ -20,6 +20,12 @@
         <activity android:name=".VideoPlayActivity">
 
         </activity>
+        <activity android:name=".MusicListActivity">
+
+        </activity>
+        <activity android:name=".VideoListActivity">
+
+        </activity>
     </application>
 
 </manifest>

@@ -29,7 +29,7 @@ public class SmilePlayFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup group, Bundle savedInstanceState){
-        View view=inflater.inflate(R.layout.fragment_video_list,group);
+        View view=inflater.inflate(R.layout.fragment_main_list,group);
 
 
         mButtonVideo=(Button)view.findViewById(R.id.my_video_button);
@@ -39,7 +39,7 @@ public class SmilePlayFragment extends Fragment {
         mButtonVideo.setOnClickListener(new View.OnClickListener() {        //本地视频
             @Override
             public void onClick(View v) {
-                Intent toVideo=new Intent(getActivity(),VideoPlayActivity.class);
+                Intent toVideo=new Intent(getActivity(),VideoListActivity.class);
                 startActivity(toVideo);
                 //选择本地视频
             }
@@ -47,7 +47,7 @@ public class SmilePlayFragment extends Fragment {
         mButtonMusic.setOnClickListener(new View.OnClickListener() {        //本地音乐
             @Override
             public void onClick(View v) {
-                Intent toMusic=new Intent(getActivity(),MusicPlayActivity.class);
+                Intent toMusic=new Intent(getActivity(),MusicListActivity.class);
                 startActivity(toMusic);
 
                 //选择本地音乐

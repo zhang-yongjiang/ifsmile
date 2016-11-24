@@ -6,6 +6,6 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="there are not any video now"/>
+        android:text="there are not any music now"/>
 
 </LinearLayout>
