@@ -1,5 +1,6 @@
 package app.ifsmile.com.ifsmile;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,7 +14,7 @@ import android.widget.Button;
  * Created by zyj on 16-11-21.
  */
 
-public class VideoPlayFragment extends Fragment {
+public class SmilePlayFragment extends Fragment {
 
 
     private Button mButtonVideo;
@@ -38,12 +39,17 @@ public class VideoPlayFragment extends Fragment {
         mButtonVideo.setOnClickListener(new View.OnClickListener() {        //本地视频
             @Override
             public void onClick(View v) {
+                Intent toVideo=new Intent(getActivity(),VideoPlayActivity.class);
+                startActivity(toVideo);
                 //选择本地视频
             }
         });
         mButtonMusic.setOnClickListener(new View.OnClickListener() {        //本地音乐
             @Override
             public void onClick(View v) {
+                Intent toMusic=new Intent(getActivity(),MusicPlayActivity.class);
+                startActivity(toMusic);
+
                 //选择本地音乐
             }
         });
