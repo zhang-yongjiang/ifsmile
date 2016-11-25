@@ -1,10 +1,15 @@
 package app.ifsmile.com.ifsmile;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.Fragment;
 import android.view.Window;
 
-public class SmileActivity extends FragmentActivity {
+public class SmileActivity extends SingleFragmentActivity {
+
+    @Override
+    protected Fragment createFragment(){
+        return new SmilePlayFragment();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
