@@ -2,10 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
-    <TextView
+              android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/to_play_music"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="there are not any music now"/>
+        android:layout_height="wrap_content"
+        android:text="to play music"/>
 
 </LinearLayout>
