@@ -14,16 +14,24 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".MusicPlayActivity">
+        <activity android:name=".MusicPlayActivity"
+                  android:label="@string/return_parent_activity"
+                  android:parentActivityName=".MusicListActivity">
 
         </activity>
-        <activity android:name=".VideoPlayActivity">
+        <activity android:name=".VideoPlayActivity"
+                  android:label="@string/return_parent_activity"
+                  android:parentActivityName=".VideoListActivity">
 
         </activity>
-        <activity android:name=".MusicListActivity">
+        <activity android:name=".MusicListActivity"
+                  android:label="@string/return_parent_activity"
+                  android:parentActivityName=".SmileActivity">
 
         </activity>
-        <activity android:name=".VideoListActivity">
+        <activity android:name=".VideoListActivity"
+                  android:label="@string/return_parent_activity"
+                  android:parentActivityName=".SmileActivity">
 
         </activity>
     </application>
