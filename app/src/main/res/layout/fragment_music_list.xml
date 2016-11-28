@@ -7,6 +7,7 @@
         android:id="@+id/to_play_music"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_color_selector"
         android:text="to play music"/>
 
 </LinearLayout>
