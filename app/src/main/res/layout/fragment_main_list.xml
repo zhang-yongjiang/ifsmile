@@ -16,18 +16,6 @@
             android:layout_height="wrap_content"
             android:text="@string/my_video"
             android:background="@drawable/button_color_selector"/>
-        <Button
-            android:id="@+id/my_music_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/my_music"
-            android:background="@drawable/button_color_selector"/>
-        <Button
-            android:id="@+id/my_images_view_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/my_images"
-            android:background="@drawable/button_color_selector"/>
     </LinearLayout>
 
 </RelativeLayout>
