@@ -33,7 +33,6 @@ public class SmilePlayFragment extends Fragment {
 
 
         mButtonVideo=(Button)view.findViewById(R.id.my_video_button);
-        mButtonMusic=(Button)view.findViewById(R.id.my_music_button);
 
 
         mButtonVideo.setOnClickListener(new View.OnClickListener() {        //本地视频
@@ -42,15 +41,6 @@ public class SmilePlayFragment extends Fragment {
                 Intent toVideo=new Intent(getActivity(),VideoListActivity.class);
                 startActivity(toVideo);
                 //选择本地视频
-            }
-        });
-        mButtonMusic.setOnClickListener(new View.OnClickListener() {        //本地音乐
-            @Override
-            public void onClick(View v) {
-                Intent toMusic=new Intent(getActivity(),MusicListActivity.class);
-                startActivity(toMusic);
-
-                //选择本地音乐
             }
         });
 

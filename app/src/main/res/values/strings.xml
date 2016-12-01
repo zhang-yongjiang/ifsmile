@@ -6,6 +6,7 @@
     <string name="return_parent_activity">返回</string>
     <string name="my_images">本地图片</string>
     <string name="first_view">no video,want to increase?????</string>
+    <string name="search_video">搜索视频</string>
 
 
 </resources>
