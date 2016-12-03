@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">IfSmile</string>
-    <string name="my_video">是否导入本地视频</string>
+    <string name="my_video">导入本地视频</string>
     <string name="my_music">本地音乐</string>
     <string name="view_source_video">还没有任何视频,现在导入</string>
     <string name="return_parent_activity">返回</string>
